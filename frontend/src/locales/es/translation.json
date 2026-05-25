@@ -1,0 +1,187 @@
+{
+  "common": {
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "loading": "Cargando...",
+    "logout": "Cerrar sesión",
+    "settings": "Configuración",
+    "viewSettings": "Ver configuración",
+    "back": "Dashboard"
+  },
+  "home": {
+    "subtitle": "Tu presupuesto personal, potenciado con IA",
+    "cta": "Comenzar",
+    "backendConnected": "Backend conectado ✓",
+    "backendDisconnected": "Backend desconectado ✗",
+    "checking": "Verificando conexión…"
+  },
+  "auth": {
+    "login": {
+      "welcome": "Bienvenido de vuelta",
+      "subtitle": "Ingresa tus datos para continuar",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Tu contraseña",
+      "forgotPassword": "Olvidé mi contraseña",
+      "submit": "Iniciar sesión",
+      "loading": "Ingresando…",
+      "noAccount": "¿No tienes cuenta?",
+      "signUp": "Regístrate"
+    },
+    "register": {
+      "title": "Crear cuenta",
+      "subtitle": "Empieza a controlar tus finanzas hoy",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Mínimo 6 caracteres",
+      "submit": "Crear cuenta",
+      "loading": "Creando cuenta…",
+      "hasAccount": "¿Ya tienes cuenta?",
+      "signIn": "Inicia sesión"
+    }
+  },
+  "dashboard": {
+    "greeting": "Hola, {{name}}",
+    "newTransaction": "Nueva transacción",
+    "demoMode": "Modo Demo",
+    "byokActive": "BYOK Activo",
+    "analysis": "Análisis",
+    "transactions": "Transacciones",
+    "kpi": {
+      "income": "Ingresos del mes",
+      "expense": "Gastos del mes",
+      "balance": "Balance del mes"
+    }
+  },
+  "transactions": {
+    "emptyState": "Aún no tienes transacciones",
+    "emptyHint": "Agrega tu primera transacción con el botón de arriba",
+    "filters": {
+      "all": "Todo",
+      "expense": "Gastos",
+      "income": "Ingresos",
+      "allCategories": "Todas las categorías",
+      "clearFilters": "Limpiar filtros ✕",
+      "dateFrom": "Fecha desde",
+      "dateTo": "Fecha hasta"
+    },
+    "form": {
+      "createTitle": "Nueva transacción",
+      "editTitle": "Editar transacción",
+      "description": "Descripción",
+      "descriptionPlaceholder": "Ej. Supermercado, Salario mensual…",
+      "amount": "Monto",
+      "type": "Tipo",
+      "category": "Categoría",
+      "categoryOptional": "(opcional)",
+      "aiCategorize": "✨ Categorizar con IA",
+      "customCategory": "personalizada: {{value}}",
+      "date": "Fecha",
+      "typeExpense": "Gasto",
+      "typeIncome": "Ingreso",
+      "create": "Crear transacción",
+      "update": "Guardar cambios",
+      "saving": "Guardando…",
+      "demoLimit": "Has alcanzado el límite del modo demo (5 categorizaciones/hora). Conecta tu propia API key en",
+      "demoLimitLink": "Configuración",
+      "demoLimitSuffix": "para uso ilimitado.",
+      "validation": {
+        "descriptionRequired": "La descripción es requerida.",
+        "amountRequired": "El monto debe ser mayor a 0.",
+        "dateRequired": "La fecha es requerida.",
+        "genericError": "Ocurrió un error. Intenta de nuevo."
+      }
+    },
+    "item": {
+      "recategorize": "Re-categorizar con IA",
+      "edit": "Editar",
+      "delete": "Eliminar"
+    },
+    "delete": {
+      "title": "Eliminar transacción",
+      "message": "¿Eliminar \"{{description}}\"? Esta acción no se puede deshacer."
+    },
+    "messages": {
+      "created": "Transacción creada.",
+      "updated": "Transacción actualizada.",
+      "demoWarning": "Has alcanzado el límite del modo demo.",
+      "deleteError": "Error al eliminar la transacción",
+      "recategorizeError": "Error al re-categorizar"
+    }
+  },
+  "charts": {
+    "categoryBreakdown": "Gastos por categoría — Este mes",
+    "monthlyTrend": "Tendencia 6 meses",
+    "cumulativeBalance": "Balance acumulado — Mes actual",
+    "topCategories": "Top 3 categorías de gasto",
+    "noExpenses": "Sin gastos este mes",
+    "noTransactions": "Sin transacciones este mes",
+    "notEnoughData": "Aún no hay suficientes datos para mostrar tendencias",
+    "income": "Ingresos",
+    "expense": "Gastos",
+    "day": "Día",
+    "dayLabel": "Día {{n}}",
+    "transactionCount_one": "{{count}} transacción",
+    "transactionCount_other": "{{count}} transacciones"
+  },
+  "report": {
+    "title": "Reporte Mensual con IA",
+    "generate": "Generar reporte",
+    "regenerate": "Regenerar",
+    "emptyHint": "Selecciona un mes y presiona \"Generar reporte\" para obtener un análisis personalizado con IA.",
+    "noData": "No hay transacciones en este mes. ¡Registra algunas para ver tu reporte!",
+    "stats": {
+      "income": "Ingresos",
+      "expense": "Gastos",
+      "balance": "Balance"
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "backToDashboard": "Dashboard",
+    "apiKey": {
+      "title": "API Key de Anthropic",
+      "description": "SmartBudget usa Claude AI para categorizar tus transacciones automáticamente. Tienes dos opciones:",
+      "demoOption": "Modo Demo — usa nuestra API con un límite de 5 categorizaciones por hora.",
+      "byokOption": "BYOK — conecta tu propia cuenta de Anthropic para uso ilimitado. Tu key se guarda encriptada (AES-256-GCM).",
+      "loading": "Cargando configuración…",
+      "byokEnabled": "BYOK activado — uso ilimitado",
+      "maskedKey": "sk-ant-••••••••••••{{lastFour}}",
+      "removeKey": "Eliminar key",
+      "removing": "Eliminando…",
+      "label": "Tu API Key de Anthropic",
+      "placeholder": "sk-ant-api03-…",
+      "hint": "La key se validará con Anthropic antes de guardarse.",
+      "saveAndValidate": "Guardar y validar",
+      "validating": "Validando con Anthropic…",
+      "howToGet": "¿Cómo obtener mi API key?",
+      "removeConfirm": {
+        "title": "Eliminar API key",
+        "message": "¿Eliminar tu API key? Volverás al modo demo (5 categorizaciones por hora)."
+      }
+    },
+    "language": {
+      "title": "Idioma",
+      "switchToEn": "Switch to English",
+      "switchToEs": "Cambiar a Español"
+    }
+  },
+  "months": {
+    "1": "Enero",
+    "2": "Febrero",
+    "3": "Marzo",
+    "4": "Abril",
+    "5": "Mayo",
+    "6": "Junio",
+    "7": "Julio",
+    "8": "Agosto",
+    "9": "Septiembre",
+    "10": "Octubre",
+    "11": "Noviembre",
+    "12": "Diciembre"
+  }
+}

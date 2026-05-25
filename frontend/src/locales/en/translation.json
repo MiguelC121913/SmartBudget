@@ -1,0 +1,187 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "logout": "Sign out",
+    "settings": "Settings",
+    "viewSettings": "View settings",
+    "back": "Dashboard"
+  },
+  "home": {
+    "subtitle": "Your personal budget, AI-powered",
+    "cta": "Get started",
+    "backendConnected": "Backend connected ✓",
+    "backendDisconnected": "Backend disconnected ✗",
+    "checking": "Checking connection…"
+  },
+  "auth": {
+    "login": {
+      "welcome": "Welcome back",
+      "subtitle": "Enter your details to continue",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "password": "Password",
+      "passwordPlaceholder": "Your password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign in",
+      "loading": "Signing in…",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "title": "Create account",
+      "subtitle": "Start controlling your finances today",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "password": "Password",
+      "passwordPlaceholder": "At least 6 characters",
+      "submit": "Create account",
+      "loading": "Creating account…",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in"
+    }
+  },
+  "dashboard": {
+    "greeting": "Hello, {{name}}",
+    "newTransaction": "New transaction",
+    "demoMode": "Demo Mode",
+    "byokActive": "BYOK Active",
+    "analysis": "Analytics",
+    "transactions": "Transactions",
+    "kpi": {
+      "income": "Monthly income",
+      "expense": "Monthly expenses",
+      "balance": "Balance"
+    }
+  },
+  "transactions": {
+    "emptyState": "No transactions yet",
+    "emptyHint": "Add your first transaction with the button above",
+    "filters": {
+      "all": "All",
+      "expense": "Expenses",
+      "income": "Income",
+      "allCategories": "All categories",
+      "clearFilters": "Clear filters ✕",
+      "dateFrom": "From date",
+      "dateTo": "To date"
+    },
+    "form": {
+      "createTitle": "New transaction",
+      "editTitle": "Edit transaction",
+      "description": "Description",
+      "descriptionPlaceholder": "E.g. Groceries, Monthly salary…",
+      "amount": "Amount",
+      "type": "Type",
+      "category": "Category",
+      "categoryOptional": "(optional)",
+      "aiCategorize": "✨ Categorize with AI",
+      "customCategory": "custom: {{value}}",
+      "date": "Date",
+      "typeExpense": "Expense",
+      "typeIncome": "Income",
+      "create": "Create transaction",
+      "update": "Save changes",
+      "saving": "Saving…",
+      "demoLimit": "You've reached the demo limit (5 categorizations/hour). Add your own API key in",
+      "demoLimitLink": "Settings",
+      "demoLimitSuffix": "for unlimited use.",
+      "validation": {
+        "descriptionRequired": "Description is required.",
+        "amountRequired": "Amount must be greater than 0.",
+        "dateRequired": "Date is required.",
+        "genericError": "Something went wrong. Please try again."
+      }
+    },
+    "item": {
+      "recategorize": "Recategorize with AI",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "delete": {
+      "title": "Delete transaction",
+      "message": "Delete \"{{description}}\"? This action cannot be undone."
+    },
+    "messages": {
+      "created": "Transaction created.",
+      "updated": "Transaction updated.",
+      "demoWarning": "You've reached the demo mode limit.",
+      "deleteError": "Failed to delete transaction",
+      "recategorizeError": "Failed to recategorize"
+    }
+  },
+  "charts": {
+    "categoryBreakdown": "Spending by category — This month",
+    "monthlyTrend": "6-month trend",
+    "cumulativeBalance": "Cumulative balance — Current month",
+    "topCategories": "Top 3 spending categories",
+    "noExpenses": "No expenses this month",
+    "noTransactions": "No transactions this month",
+    "notEnoughData": "Not enough data to show trends yet",
+    "income": "Income",
+    "expense": "Expenses",
+    "day": "Day",
+    "dayLabel": "Day {{n}}",
+    "transactionCount_one": "{{count}} transaction",
+    "transactionCount_other": "{{count}} transactions"
+  },
+  "report": {
+    "title": "AI Monthly Report",
+    "generate": "Generate report",
+    "regenerate": "Regenerate",
+    "emptyHint": "Select a month and press \"Generate report\" for a personalized AI analysis.",
+    "noData": "No transactions this month. Add some to see your report!",
+    "stats": {
+      "income": "Income",
+      "expense": "Expenses",
+      "balance": "Balance"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "backToDashboard": "Dashboard",
+    "apiKey": {
+      "title": "Anthropic API Key",
+      "description": "SmartBudget uses Claude AI to automatically categorize your transactions. You have two options:",
+      "demoOption": "Demo Mode — uses our API with a limit of 5 categorizations per hour.",
+      "byokOption": "BYOK — connect your own Anthropic account for unlimited usage. Your key is stored encrypted (AES-256-GCM).",
+      "loading": "Loading settings…",
+      "byokEnabled": "BYOK enabled — unlimited usage",
+      "maskedKey": "sk-ant-••••••••••••{{lastFour}}",
+      "removeKey": "Remove key",
+      "removing": "Removing…",
+      "label": "Your Anthropic API Key",
+      "placeholder": "sk-ant-api03-…",
+      "hint": "The key will be validated with Anthropic before saving.",
+      "saveAndValidate": "Save and validate",
+      "validating": "Validating with Anthropic…",
+      "howToGet": "How do I get my API key?",
+      "removeConfirm": {
+        "title": "Remove API key",
+        "message": "Remove your API key? You'll return to demo mode (5 categorizations per hour)."
+      }
+    },
+    "language": {
+      "title": "Language",
+      "switchToEn": "Switch to English",
+      "switchToEs": "Cambiar a Español"
+    }
+  },
+  "months": {
+    "1": "January",
+    "2": "February",
+    "3": "March",
+    "4": "April",
+    "5": "May",
+    "6": "June",
+    "7": "July",
+    "8": "August",
+    "9": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  }
+}
